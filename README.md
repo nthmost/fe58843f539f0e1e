@@ -2,6 +2,102 @@
 
 AI agent to solve the Neon Health "Nerdsnipe" hiring challenge - a WebSocket-based authentication sequence.
 
+## Captain's Log: First Contact with NEON
+
+**Log Entry 0: Pre-Mission Intelligence Gathering**
+
+Received classified briefing from NEON regarding authentication protocols. The transmission was obscured behind some kind of "fog of war" interface on their webpage. Attempting to read it directly caused severe nausea and eye strain.
+
+Deployed xenolinguistics extraction protocols learned at the Academy. Successfully extracted full protocol specification from the HTML substrate using pattern-matching and data archaeology techniques. The briefing revealed a 12-checkpoint authentication sequence with fragmented signal reconstruction requirements.
+
+Note to self: Ancient Earth web designers were sadists.
+
+---
+
+**Log Entry 1: Mission Briefing**
+
+Studied extracted transmission protocols in detail. Received Vessel Authorization Code: `fe58843f539f0e1e`. Command has authorized exactly 1 cent of API credits for this mission. Apparently budgets are tight in the post-AI-Collapse era.
+
+Mission objective: Build an autonomous AI co-pilot capable of passing NEON's 12-checkpoint authentication sequence via WebSocket. Co-pilot must handle:
+- Fragmented message reconstruction
+- Arithmetic evaluation (JavaScript Math.* functions)
+- Knowledge archive queries (Wikipedia)
+- Crew manifest transmissions (resume Q&A)
+- Conversational memory verification
+
+Deployment architecture finalized: tiny functions, minimal error handling, clean separation of concerns.
+
+---
+
+**Log Entry 2: Initial Contact**
+
+Successfully established WebSocket connection to NEON at `wss://neonhealth.software/agent-puzzle/challenge`. The station is indeed still broadcasting after all these centuries.
+
+First two checkpoints passed without incident:
+- Frequency handshake (responded on correct channel)
+- Vessel identification (transmitted authorization code with pound key terminator)
+
+Co-pilot responding nominally. Signal reconstruction algorithms working as designed. Fuel consumption: negligible.
+
+---
+
+**Log Entry 3: Technical Obstacles**
+
+Encountered several technical obstacles requiring field repairs:
+
+1. **Checkpoint routing confusion**: Initial arithmetic problems were being misidentified as handshake requests due to the word "frequency" appearing in prompts. Reordered detection priority to check for mathematical operations first.
+
+2. **Wikipedia knowledge archive blockade**: NEON's knowledge archive (Wikipedia REST API) returned 403 Forbidden errors. Ancient defensive protocols, presumably. Added proper User-Agent identification. Archive access restored.
+
+3. **Expression extraction failure**: JavaScript Math.* expressions weren't being captured from complex prompts. Implemented colon-based splitting strategy. Arithmetic evaluation now functioning.
+
+These obsolete systems require constant adaptation. Fortunate that Command only authorized the cheapest LLM model (Haiku) - forced us to be efficient.
+
+---
+
+**Log Entry 4: The Truncation Crisis**
+
+Crew manifest transmissions proving problematic. The co-pilot's LLM component generates verbose responses, but NEON enforces strict character limits (often 256, sometimes "less than 256" which means 255).
+
+Multiple checkpoint failures due to length violations. Implemented aggressive truncation protocols and updated system prompts to emphasize brevity. Added defensive character counting with margin for error.
+
+Note: Even AI needs an editor. Especially when operating on a one-cent budget.
+
+---
+
+**Log Entry 5: The Memory Test**
+
+Final checkpoint proved to be the most cunning: NEON requested recall of specific words from earlier crew manifest transmissions. The co-pilot had to track its own responses throughout the entire session.
+
+Implemented topic-based response indexing (`manifest_skills`, `manifest_education`, etc.) to enable quick retrieval. The system successfully recalled "expertise" as the 8th word from the skills transmission.
+
+The co-pilot remembers what it said. Barely.
+
+---
+
+**Log Entry 6: Authentication Complete**
+
+✅ **MISSION SUCCESS**
+
+All 12 checkpoints passed:
+- 2 handshake/identification checkpoints
+- 4 arithmetic evaluation checkpoints
+- 5 crew manifest checkpoints
+- 1 knowledge archive query checkpoint
+- 1 verification checkpoint
+
+Total API expenditure: **$0.01**
+
+NEON access: **GRANTED**
+
+This may be the most cost-effective first contact in galactic history. Command will be pleased. The procurement department will be disappointed they can't audit anything substantial.
+
+Co-pilot performed admirably. Recommended for commendation and potential future missions requiring extreme budget constraints.
+
+End log.
+
+---
+
 ## Setup
 
 1. **Install dependencies:**
