@@ -1,0 +1,77 @@
+{
+  "name": "Naomi Most",
+  "title": "Backend Python Engineer | AI/ML Specialist | Healthcare Tech Leader",
+  "location": "San Francisco, California",
+  "summary": "Founding-stage backend engineer with 15+ years building production ML systems, data pipelines, and APIs for healthcare and biomedical applications. Expert in agentic workflows and AI orchestration as OSS maintainer of Conductor OSS (aka Netflix Conductor) at Orkes. Early engineer at Streamlit (employee #5). Built AI-powered clinical decision support systems processing millions of medical records and research articles.",
+
+  "education": [
+    "Maryville University of Saint Louis - GPA 3.9",
+    "Supervised Machine Learning: Regression and Classification - DeepLearning.AI / Stanford University (Nov 2024)",
+    "Data Management and Visualization - Coursera (Jul 2019)"
+  ],
+
+  "experience": [
+    "Lead Software Engineer at Orkes (Sep 2025 - Present): Conductor OSS maintainer and community steward for Conductor OSS (aka Netflix Conductor) workflow orchestration platform. Expert in designing fault-tolerant stateful workflows for AI/ML pipelines and LLM agent coordination.",
+    "Lead R&D Software Engineer at Seagen Pharmaceutical (Apr 2021 - Dec 2021): Built GraphQL/Flask API and analysis pipeline for pharmaceutical research scientists. Reduced data access time from days to minutes.",
+    "Sr. Software Engineer at Streamlit (Oct 2019 - Mar 2021): Employee #5. Optimized caching engine, led Python 2→3 migration, served as Bug Marshall managing open-source contributions.",
+    "Lead Software Engineer at Sauce Labs (Sep 2017 - Sep 2018): Architected high-fidelity Kafka-based ETL pipeline for near-real-time test automation data. Led team of 8 engineers.",
+    "Founder/CTO at Text2Gene (Sep 2015 - Sep 2017): Built ML-based literature search platform for clinical genomics. Successfully exited via acquisition.",
+    "Bioinformatics Software Engineer at Invitae (Feb 2013 - Sep 2015): Led development for CAP/CLIA-regulated genetic testing laboratory. Created multiple open-source libraries including Metapub and Illuminate.",
+    "Principal Software Engineer at Core Wellness (Oct 2016 - Jun 2017): Employee #1. Built complete backend data science infrastructure for meditation app with HRV analysis.",
+    "Director of Open Science at Curoverse/NIH Data Commons (Apr 2018 - Jan 2019): Collaborated on cloud-based platforms for biomedical data sharing in 600-person multi-institutional initiative."
+  ],
+
+  "skills": [
+    "Python (15+ years)",
+    "Java",
+    "TypeScript",
+    "React",
+    "Flask",
+    "GraphQL",
+    "Django",
+    "REST APIs",
+    "WebSockets",
+    "Machine Learning",
+    "NLP",
+    "pandas",
+    "scikit-learn",
+    "LLM integration",
+    "Conductor OSS (aka Netflix Conductor)",
+    "Airflow",
+    "Workflow orchestration",
+    "Agentic AI",
+    "Kafka",
+    "ETL pipelines",
+    "PostgreSQL",
+    "MySQL",
+    "Elasticsearch",
+    "Docker",
+    "Kubernetes",
+    "Google Cloud Platform",
+    "HIPAA compliance",
+    "Bioinformatics",
+    "Genomics"
+  ],
+
+  "projects": [
+    "Conductor OSS (aka Netflix Conductor) maintainer - Leading open-source workflow orchestration platform for agentic AI workflows and distributed systems",
+    "Metapub - PubMed/NCBI literature search library (github.com/metapub/metapub)",
+    "Illuminate - Illumina sequencer metrics analysis library, used by CDC and 50+ labs worldwide",
+    "Text2Gene - ML-based clinical genomics platform for genetic variant interpretation, successfully acquired",
+    "Sensate - CAP/CLIA lab environmental monitoring system for international laboratories",
+    "lubdub - Open-source ECG/EKG and heart rate variability analysis library",
+    "Secureconfig - Configuration encryption toolkit",
+    "Built AI-powered clinical decision support systems processing millions of medical records",
+    "Architected HIPAA-compliant data platforms for pharmaceutical R&D and clinical laboratories"
+  ],
+
+  "notable_achievements": [
+    "Employee #5 at Streamlit (now major ML/data science platform)",
+    "Founded and successfully exited Text2Gene via acquisition",
+    "Created widely-used open-source libraries (Illuminate used by CDC, Metapub for PubMed research)",
+    "Reduced pharmaceutical research data access time from days to minutes",
+    "Built production systems processing millions of medical records and research articles",
+    "Expert in healthcare regulatory compliance (HIPAA, CAP, CLIA)",
+    "15+ years expertise in Python backend development and ML systems"
+  ]
+}
