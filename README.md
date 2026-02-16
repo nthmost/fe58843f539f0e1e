@@ -117,8 +117,9 @@ Fair question. Here's the honest breakdown:
 - **Creative work**: Wrote the Captain's Log narrative and this transparency section
 - **Git operations**: Repository setup, commit messages, GitHub coordination
 
-### AI (Claude Sonnet 4.5) Contributed:
+### AI Contributed:
 
+**Claude Code (Sonnet 4.5)** - Development assistant:
 - **Code implementation**: Wrote all 554 lines of Python following the established standards
 - **Iterative debugging**:
   - Fixed checkpoint routing priority (arithmetic vs handshake)
@@ -128,6 +129,11 @@ Fair question. Here's the honest breakdown:
   - Refined topic extraction regex patterns
 - **Pattern implementation**: Translated architectural decisions into working code
 - **Documentation**: Generated inline comments and initial README structure
+
+**Claude Haiku (via Anthropic API)** - Runtime agent:
+- **Resume Q&A**: Answered NEON's crew manifest questions during the live challenge
+- **Cost**: This is where the $0.01 went - 5 manifest checkpoint responses
+- **Why Haiku**: Chose the most cost-effective model since the task (answer resume questions) didn't require Sonnet's capabilities
 
 ### True Collaboration:
 
