@@ -98,6 +98,51 @@ End log.
 
 ---
 
+## Human vs AI: A Transparent Breakdown
+
+The NEON briefing asked: *"You are welcome to use LLMs or other tools, but we'd love to hear afterwards how much of the work was you versus an LLM."*
+
+Fair question. Here's the honest breakdown:
+
+### Human (Naomi) Contributed:
+
+- **Initial reconnaissance**: Extracted the obfuscated briefing from the HTML when the fog-of-war interface caused nausea. Applied pattern-matching and data archaeology (definitely learned that at the Academy).
+- **Architecture & coding standards**: Established the "tiny functions, no in-function imports, minimal try-except" principles. These weren't suggestions—they were requirements enforced throughout.
+- **Strategic decisions**:
+  - Chose to extract protocols first rather than reading through the browser
+  - Selected Claude Haiku over Sonnet to keep costs at $0.01 (mission parameter)
+  - Designed the modular checkpoint handler architecture
+  - Decided on topic-based history indexing for verification
+- **Problem framing**: Defined the plan, reviewed the approach, approved implementation strategy
+- **Creative work**: Wrote the Captain's Log narrative and this transparency section
+- **Git operations**: Repository setup, commit messages, GitHub coordination
+
+### AI (Claude Sonnet 4.5) Contributed:
+
+- **Code implementation**: Wrote all 554 lines of Python following the established standards
+- **Iterative debugging**:
+  - Fixed checkpoint routing priority (arithmetic vs handshake)
+  - Resolved Wikipedia 403 errors (User-Agent header)
+  - Debugged length validation and truncation logic
+  - Corrected model name availability issues
+  - Refined topic extraction regex patterns
+- **Pattern implementation**: Translated architectural decisions into working code
+- **Documentation**: Generated inline comments and initial README structure
+
+### True Collaboration:
+
+- **Design iteration**: Human set direction, AI implemented, human reviewed, repeat
+- **Problem-solving**: Human identified blockers, AI proposed solutions, human approved/refined
+- **Code quality**: Human enforced standards, AI adhered to them religiously
+
+### The Result:
+
+This was **not** "AI wrote the code." This was **human-directed, AI-accelerated development**. Every architectural decision, every coding principle, every strategic choice came from the human. The AI was a very capable and very fast junior engineer who never argued about coding standards and could implement 16 modules in an afternoon.
+
+Think: conductor and orchestra, not jukebox.
+
+---
+
 ## Setup
 
 1. **Install dependencies:**
